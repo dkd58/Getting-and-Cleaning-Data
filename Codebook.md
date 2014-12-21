@@ -1,6 +1,6 @@
 This codebook describes both the input files (Human Activity Recognition Using Smartphones Datasets) and the resulting tidy dataset called means_per_act_subj.txt created by the R code "run_analysis.R" in this repository. 
 
-** Input files
+## Input files
 The structure of the input files is as follows:
 
 For each record it is provided:
