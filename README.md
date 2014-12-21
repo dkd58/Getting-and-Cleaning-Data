@@ -1,6 +1,6 @@
 Getting-and-Cleaning-Data
 =========================
-The script "run_analysis.R" in this repository reads the Human Activity Recognition Using Smartphones (HARUS) Datasets 
+The script "run_analysis.R" in this repository reads the Human Activity Recognition Using Smartphones Datasets 
 and reshapes these into a tidy dataset.
 The structure of these files is described in the Codebook.md, as is the structure of the resulting tidy dataset, which is called means_per_act_subj.txt.
 
@@ -19,6 +19,8 @@ Since the code "run_analysis.R" contains detailed comments, this Readme document
 - After cleaning up the variable names by removing the number attached up front (using the sub function) we can summarise the data using th dplyr package:
 - grouping by Activity and Subjectnr the means of all other variables are calculated and stored in the final dataset means_per_act_subj
 - Finally this dataset is written in txt format to the working directory. It may be read using the commands which are included in the final comment lines in the code
-- 
+
+
+ 
 
 
